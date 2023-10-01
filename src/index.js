@@ -8,8 +8,6 @@ import routes from "./routes/routes";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-      <RouterProvider router={routes}>
-        
-      </RouterProvider>
+      <RouterProvider router={routes}></RouterProvider>
   </React.StrictMode>
 );

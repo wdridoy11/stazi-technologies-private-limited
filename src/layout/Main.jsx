@@ -1,10 +1,10 @@
 import React from 'react'
-import Home from '../pages/home/home/Home'
+import { Outlet } from 'react-router-dom'
 
 const Main = () => {
   return (
     <div>
-        <Home></Home>
+        <Outlet></Outlet>
     </div>
   )
 }
