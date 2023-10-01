@@ -1,6 +1,6 @@
 [
     {
-      "id":"",
+      "id":"1",
       "img":"https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2144&q=80",
       "title":"RCE Theaters - 907 S Beckford Dr, Henderson, NC 27536",
       "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.",
@@ -20,6 +20,7 @@
       ]
     },
     {
+      "id":"2",
       "img":"https://img.freepik.com/free-photo/swimming-pool-beach-luxury-hotel-type-entertainment-complex-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18726.jpg?w=1380&t=st=1696164580~exp=1696165180~hmac=bffd62ff9c23ac09d502210cc0e3211f7604e354a7a332ec26477ba71476481b",
       "title":"Regal North Hills -4150 Main at North Hills St, Releigh",
       "description":"Regal North Hills is a prominent cinema located at 4150 Main at North Hills Street in Raleigh, North Carolina. This upscale movie theater is part of the bustling North Hills district, known for its vibrant atmosphere and diverse entertainment options. Regal North Hills offers a premium cinematic experience for moviegoers in the area. The exterior of the theater is inviting and modern, with sleek architectural design and well-maintained surroundings. As you enter, you'll be greeted by a spacious and welcoming lobby, adorned with movie posters and comfortable seating areas. The atmosphere is designed to create anticipation and excitement for your movie-going experience. Inside the theater, you'll find a range of screening options, including standard screens and, potentially, IMAX or VIP screens, depending on the location's amenities. The seating arrangements are comfortable and offer excellent sightlines to the big screen, ensuring an immersive viewing experience.",

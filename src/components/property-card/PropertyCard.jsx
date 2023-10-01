@@ -2,19 +2,18 @@ import React from 'react'
 import { FaBath, FaBed, FaMapMarkerAlt,FaBuilding, FaRegHeart } from 'react-icons/fa';
 import {FiMove } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-// const image=`https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2144&q=80`
 
 const PropertyCard = ({property}) => {
-    const {img,title,description,price,location,cityName,room,bed,bath,sft}=property;
+    const {img,title,price,location,room,bed,bath,sft}=property;
   return (
-    <div className='bg-white p-3 rounded-md shadow-sm'>
+    <div className='bg-white p-3 rounded-lg shadow-sm'>
         <div>
             <div className='relative'>
                 <button className='absolute top-2 left-2 bg-white text-blue-600 px-3 py-2 rounded-full text-base font-normal'>For Rent</button>
                 <button className='absolute top-2 right-2 bg-white p-2 rounded-full hover:bg-blue-600 hover:text-white'>
                     <FaRegHeart className='text-lg'></FaRegHeart>
                 </button>
-                <img className='rounded-md w-full h-64 object-cover' src={img} alt="Property image" />
+                <img className='rounded-lg w-full h-64 object-cover' src={img} alt="Property image" />
             </div>
             <div className='px-4 pt-5'>
                 <p className='flex items-center gap-1 text-base font-normal'><FaMapMarkerAlt></FaMapMarkerAlt> {location}</p>
