@@ -6,11 +6,11 @@ const image=`https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=
 
 const PropertyCard = () => {
   return (
-    <div className='bg-white p-3 rounded-md'>
+    <div className='bg-white p-3 rounded-md shadow-sm'>
         <div>
             <div className='relative'>
                 <button className='absolute top-2 left-2 bg-white text-blue-600 px-3 py-2 rounded-full text-base font-normal'>For Rent</button>
-                <button className='absolute top-2 right-2 bg-white p-2 rounded-full'>
+                <button className='absolute top-2 right-2 bg-white p-2 rounded-full hover:bg-blue-600 hover:text-white'>
                     <FaRegHeart className='text-lg'></FaRegHeart>
                 </button>
                 <img className='rounded-md w-full h-64 object-cover' src={image} alt="Property image" />
