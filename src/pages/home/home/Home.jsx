@@ -1,8 +1,11 @@
 import React from 'react'
+import PropertyDataLoad from '../../property/PropertyDataLoad'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <PropertyDataLoad></PropertyDataLoad>
+    </div>
   )
 }
 
