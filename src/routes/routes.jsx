@@ -4,6 +4,7 @@ import Main from '../layout/Main'
 import Home from '../pages/home/home/Home'
 import PropertyDetails from '../pages/property/PropertyDetails'
 import Property from '../pages/property/Property'
+import PropertyDataLoad from '../pages/property/PropertyDataLoad'
 
 const routes = createBrowserRouter([
   {
@@ -16,7 +17,7 @@ const routes = createBrowserRouter([
       },
       {
         path:"property",
-        element:<PropertyDetails></PropertyDetails>
+        element:<PropertyDataLoad></PropertyDataLoad>,
       }
     ]
   }

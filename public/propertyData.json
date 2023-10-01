@@ -38,6 +38,26 @@
         "https://cdn.pixabay.com/photo/2016/05/16/06/16/pool-1395069_1280.jpg",
         ""
       ]
+    } ,
+    {
+      "id":"2",
+      "img":"https://img.freepik.com/free-photo/swimming-pool-beach-luxury-hotel-type-entertainment-complex-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18726.jpg?w=1380&t=st=1696164580~exp=1696165180~hmac=bffd62ff9c23ac09d502210cc0e3211f7604e354a7a332ec26477ba71476481b",
+      "title":"Regal North Hills -4150 Main at North Hills St, Releigh",
+      "description":"Regal North Hills is a prominent cinema located at 4150 Main at North Hills Street in Raleigh, North Carolina. This upscale movie theater is part of the bustling North Hills district, known for its vibrant atmosphere and diverse entertainment options. Regal North Hills offers a premium cinematic experience for moviegoers in the area. The exterior of the theater is inviting and modern, with sleek architectural design and well-maintained surroundings. As you enter, you'll be greeted by a spacious and welcoming lobby, adorned with movie posters and comfortable seating areas. The atmosphere is designed to create anticipation and excitement for your movie-going experience. Inside the theater, you'll find a range of screening options, including standard screens and, potentially, IMAX or VIP screens, depending on the location's amenities. The seating arrangements are comfortable and offer excellent sightlines to the big screen, ensuring an immersive viewing experience.",
+      "price":"5,256",
+      "location":"3890 Poplar DR.",
+      "cityName":"New York",
+      "room":"3",
+      "bed":"4",
+      "bath":"1",
+      "sft":"754",
+      "imageGallery":[
+        "https://cdn.pixabay.com/photo/2017/06/09/09/30/swimming-pool-2386261_1280.jpg",
+        "https://cdn.pixabay.com/photo/2016/05/18/08/12/resort-1400082_1280.jpg",
+        "https://cdn.pixabay.com/photo/2016/05/16/06/17/pool-1395071_1280.jpg",
+        "https://cdn.pixabay.com/photo/2016/05/16/06/16/pool-1395069_1280.jpg",
+        ""
+      ]
     } 
     
   ]

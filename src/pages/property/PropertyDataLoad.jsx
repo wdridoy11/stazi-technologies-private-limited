@@ -1,30 +1,40 @@
 import React, { useEffect, useState } from 'react'
 import PropertyCard from '../../components/property-card/PropertyCard'
 import { click } from '@testing-library/user-event/dist/click';
+import { useLoaderData } from 'react-router-dom';
 
 const cityName=[
+  "London",
   "New York",
   "Mumbai",
   "Paris",
-  "London",
 ]
 
-
 const PropertyDataLoad = () => {
-  const [propertyData, setPropertyData] = useState([]);
+
+  // state
+  const [properties, setProperties] = useState([]);
+  const [selectedCity, setSelectedCity] = useState('London');
+  const [filteredProperties, setFilteredProperties] = useState([]);
+
   // property data load form public folder
   useEffect(()=>{
     fetch(`propertyData.json`)
     .then((res)=>res.json())
-    .then((data)=>setPropertyData(data))
+    .then((data)=>setProperties(data))
+    .catch((err)=>console.log(err.message))
   },[])
 
-const handleCity=(event)=>{
-  console.log(event.target.value)
-}
+  // filter using cityName
+  useEffect(()=>{
+    const filtered = properties.filter((property) => property.cityName === selectedCity);
+    setFilteredProperties(filtered);
+  },[selectedCity, properties])
 
-
-
+  // city name target value
+  const handleCityChange = (event) => {
+    setSelectedCity(event.target.value);
+  };
 
   return (
     <div className='bg-neutral-100 py-20'>
@@ -32,16 +42,16 @@ const handleCity=(event)=>{
             <h1 className='text-4xl font-semibold text-center mb-10'>Featured Listed Property</h1>
             <p></p>
             <div className='flex gap-3 mb-5'>
-                {cityName.map((name,index)=><button
+                {cityName && cityName.map((name,index)=><button
                   key={index} 
                   value={name}
-                  onClick={handleCity}
+                  onClick={handleCityChange}
                   className='bg-[#EBEBFB] px-10 py-2 rounded-full text-lg font-medium'
                   >{name}</button>
                 )}
             </div>
             <div className='grid grid-cols-3 gap-10'>
-                {propertyData && propertyData.map((property)=><PropertyCard key={property.id} property={property}></PropertyCard>)}
+                {filteredProperties && filteredProperties.map((property,index)=><PropertyCard key={index} property={property}></PropertyCard>)}
             </div>
         </div>
     </div>

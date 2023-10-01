@@ -4,7 +4,6 @@ import {FiMove } from 'react-icons/fi';
 import Feature from '../../components/feature/Feature';
 import Form from '../../components/form/Form';
 const description ="Regal North Hills is a prominent cinema located at 4150 Main at North Hills Street in Raleigh, North Carolina. This upscale movie theater is part of the bustling North Hills district, known for its vibrant atmosphere and diverse entertainment options. Regal North Hills offers a premium cinematic experience for moviegoers in the area. The exterior of the theater is inviting and modern, with sleek architectural design and well-maintained surroundings. As you enter, you'll be greeted by a spacious and welcoming lobby, adorned with movie posters and comfortable seating areas. The atmosphere is designed to create anticipation and excitement for your movie-going experience. Inside the theater, you'll find a range of screening options, including standard screens and, potentially, IMAX or VIP screens, depending on the location's amenities. The seating arrangements are comfortable and offer excellent sightlines to the big screen, ensuring an immersive viewing experience.";
-
 const image=`https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2144&q=80`
 
 const PropertyDetails = () => {
