@@ -1,10 +1,10 @@
 import React from 'react'
 import {FaMapMarkerAlt} from 'react-icons/fa';
 import Form from '../../components/form/Form';
-import Feature from '../../components/feature/Feature';
 import { Carousel } from 'react-responsive-carousel';
-import "./slider.css"
+import Feature from '../../components/feature/Feature';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "./slider.css"
 
 const PropertyDetails = ({property}) => {
   // property data structure

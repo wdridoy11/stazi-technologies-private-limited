@@ -1,3 +1,11 @@
+## Live link:
+https://hotel-listing-website.netlify.app 
+
+## Feature
+1. By default, shows London data card. On click of any other tab, it will be active, and show data.
+2. When click show more button, showed more 3 new cards.
+3. When click Read More button, showed all details.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
