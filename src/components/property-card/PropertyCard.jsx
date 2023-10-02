@@ -1,6 +1,5 @@
 import React from 'react'
-import { FaBath, FaBed, FaMapMarkerAlt,FaBuilding, FaRegHeart } from 'react-icons/fa';
-import {FiMove } from 'react-icons/fi';
+import {FaMapMarkerAlt,FaRegHeart } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Feature from '../feature/Feature';
 
@@ -12,7 +11,7 @@ const PropertyCard = ({property}) => {
     <div className='bg-white p-3 rounded-lg shadow-sm'>
         <div>
             <div className='relative'>
-                <button className='absolute top-2 left-2 bg-white text-blue-600 px-3 py-2 rounded-full text-base font-normal'>For Rent</button>
+                <button className='absolute top-2 left-2 bg-white text-blue-600 px-4 py-2 rounded-full text-sm font-medium'>For Rent</button>
                 <button className='absolute top-2 right-2 bg-white p-2 rounded-full hover:bg-blue-600 hover:text-white'>
                     <FaRegHeart className='text-lg'></FaRegHeart>
                 </button>

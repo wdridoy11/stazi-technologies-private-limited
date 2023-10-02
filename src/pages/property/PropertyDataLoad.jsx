@@ -15,6 +15,7 @@ const PropertyDataLoad = () => {
   const [selectedCity, setSelectedCity] = useState('London'); // active data
   const [filteredProperties, setFilteredProperties] = useState([]); // filter data and send display
   const [displayedProperties, setDisplayedProperties] = useState(6); // Number of properties to display
+  const [showMoreDisabled, setShowMoreDisabled] = useState(false);
 
   // property data load form public folder
   useEffect(()=>{
@@ -34,18 +35,27 @@ const PropertyDataLoad = () => {
   const handleCityChange = (event) => {
     setSelectedCity(event.target.value);
     setDisplayedProperties(6);
+    setShowMoreDisabled(false); 
   };
 
   // show more button
   const handleShowMore =()=>{
-    setDisplayedProperties(displayedProperties + 3);
+    const newDisplayedProperties = displayedProperties + 3;
+    setDisplayedProperties(newDisplayedProperties);
+
+    if (newDisplayedProperties >= filteredProperties.length) {
+      setShowMoreDisabled(true); // Disable the button when all data is displayed
+    }
+
   }
 
   return (
     <div className='bg-neutral-100 py-20'>
         <div className='container mx-auto'>
-            <h1 className='text-4xl font-semibold text-center mb-10'>Featured Listed Property</h1>
-            <p></p>
+          <div className='mb-10'>
+              <h1 className='text-4xl font-semibold text-center mb-4'>Featured Listed Property</h1>
+              <p className='text-center w-1/3 mx-auto'>Real estate can be bought, sold, leased, or rented, and can be a valuable investment opportunity. The value of real estate can be...</p>
+          </div>
             {/* city name list show */}
             <div className='flex gap-3 mb-5'>
                 {cityName && cityName.map((name,index)=><button
@@ -68,10 +78,12 @@ const PropertyDataLoad = () => {
             {/* show more button */}
             <div>
               <div className='text-center mt-10'>
-                <button 
-                  onClick={handleShowMore}
-                  className='bg-blue-600 text-white text-lg font-medium px-10 py-2 rounded-full border 
-                  border-blue-600 hover:bg-transparent hover:text-black duration-500'>Show More</button>
+                {!showMoreDisabled && (
+                    <button 
+                    onClick={handleShowMore}
+                    className='bg-blue-600 text-white text-lg font-medium px-10 py-2 rounded-full border 
+                    border-blue-600 hover:bg-transparent hover:text-black duration-500'>Show More</button>
+                )}
               </div>
             </div>
         </div>
