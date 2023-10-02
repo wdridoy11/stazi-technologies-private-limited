@@ -14,6 +14,7 @@ const PropertyDataLoad = () => {
   const [properties, setProperties] = useState([]); //all properties data
   const [selectedCity, setSelectedCity] = useState('London'); // active data
   const [filteredProperties, setFilteredProperties] = useState([]); // filter data and send display
+  const [displayedProperties, setDisplayedProperties] = useState(6); // Number of properties to display
 
   // property data load form public folder
   useEffect(()=>{
@@ -32,7 +33,13 @@ const PropertyDataLoad = () => {
   // city name target value
   const handleCityChange = (event) => {
     setSelectedCity(event.target.value);
+    setDisplayedProperties(6);
   };
+
+  // show more button
+  const handleShowMore =()=>{
+    setDisplayedProperties(displayedProperties + 3);
+  }
 
   return (
     <div className='bg-neutral-100 py-20'>
@@ -52,11 +59,20 @@ const PropertyDataLoad = () => {
             {/* Property Card data pass */}
             <div className='grid grid-cols-3 gap-10'>
                 {filteredProperties && 
-                    filteredProperties.map((property,index)=><PropertyCard 
+                    filteredProperties.slice(0,displayedProperties).map((property,index)=><PropertyCard 
                         key={index} 
                         property={property}
                     ></PropertyCard>
                 )}
+            </div>
+            {/* show more button */}
+            <div>
+              <div className='text-center mt-10'>
+                <button 
+                  onClick={handleShowMore}
+                  className='bg-blue-600 text-white text-lg font-medium px-10 py-2 rounded-full border 
+                  border-blue-600 hover:bg-transparent hover:text-black duration-500'>Show More</button>
+              </div>
             </div>
         </div>
     </div>

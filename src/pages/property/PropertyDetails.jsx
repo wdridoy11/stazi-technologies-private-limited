@@ -8,7 +8,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const PropertyDetails = ({property}) => {
   // property data structure
-  const {img, title, price, location, description, room, bed, bath, sft, imageGallery} = property;
+  const { title, price, location, description, room, bed, bath, sft, imageGallery} = property;
+  
   return (
     <div>
       <div>
