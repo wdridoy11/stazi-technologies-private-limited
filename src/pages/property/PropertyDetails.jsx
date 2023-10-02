@@ -2,18 +2,26 @@ import React from 'react'
 import {FaMapMarkerAlt} from 'react-icons/fa';
 import Form from '../../components/form/Form';
 import Feature from '../../components/feature/Feature';
+import { Carousel } from 'react-responsive-carousel';
+import "./slider.css"
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const PropertyDetails = ({property}) => {
   // property data structure
-  const {img, title, price, location, description, room, bed, bath, sft} = property;
-
+  const {img, title, price, location, description, room, bed, bath, sft, imageGallery} = property;
   return (
     <div>
       <div>
           <div>
               <h3 className='text-xl text-black font-medium mb-2'>{title}</h3>
               <p className='flex items-center gap-1 text-base font-normal mb-5'><FaMapMarkerAlt></FaMapMarkerAlt> {location}</p>
-              <img className='w-full h-[700px] object-cover rounded-2xl' src={img} alt="Header image" />
+              <div className='text-center'>
+                  <Carousel>
+                      {imageGallery.map((gallery)=><div>
+                          <img src={gallery} alt="property gallery image" />
+                      </div>)}
+                  </Carousel>
+              </div>
           </div>
           <div className='grid grid-cols-3 gap-10 mt-10'>
               {/* Overview */}
