@@ -5,6 +5,7 @@ import Home from '../pages/home/home/Home'
 import PropertyDetails from '../pages/property/PropertyDetails'
 import Property from '../pages/property/Property'
 import PropertyDataLoad from '../pages/property/PropertyDataLoad'
+import PropertyCard from '../components/property-card/PropertyCard'
 
 const routes = createBrowserRouter([
   {
@@ -20,10 +21,10 @@ const routes = createBrowserRouter([
         element:<PropertyDataLoad></PropertyDataLoad>,
       },
       {
-        path:"property/:id",
-        element:<PropertyDetails></PropertyDetails>,
-        loader:({params})=>fetch("propertyData.json")
-      }
+        path:"property/:property_id",
+        element:<Property></Property>,
+        loader:({params})=>fetch(`propertyData.json`)
+      },
     ]
   }
 ])

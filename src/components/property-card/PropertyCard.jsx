@@ -2,9 +2,12 @@ import React from 'react'
 import { FaBath, FaBed, FaMapMarkerAlt,FaBuilding, FaRegHeart } from 'react-icons/fa';
 import {FiMove } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import Feature from '../feature/Feature';
 
 const PropertyCard = ({property}) => {
-    const {img,title,id,price,location,room,bed,bath,sft}=property;
+    // property data structure
+    const {img, title, id, price, location, room, bed, bath, sft} = property;
+    
   return (
     <div className='bg-white p-3 rounded-lg shadow-sm'>
         <div>
@@ -20,22 +23,12 @@ const PropertyCard = ({property}) => {
                 <h3 className='text-xl text-black font-medium mt-1 mb-3'>{title}</h3>
             </div>
             <div className='grid grid-cols-4 px-4 gap-2 pb-4'>
-                <div>
-                    <FaBuilding className='text-lg mb-2'></FaBuilding>
-                    <p className='text-base font-normal'>{room} Room</p>
-                </div>
-                <div>
-                    <FaBed className='text-lg mb-2'></FaBed>
-                    <p className='text-base font-normal'>{bed} Bed</p>
-                </div>
-                <div>
-                    <FaBath className='text-lg mb-2'></FaBath>
-                    <p className='text-base font-normal'>{bath} Bath</p>
-                </div>
-                <div>
-                    <FiMove className='text-lg mb-2'></FiMove>
-                    <p className='text-base font-normal'>{sft} sft</p>
-                </div>
+                <Feature
+                    room={room}
+                    bed={bed}
+                    bath={bath}
+                    sft={sft}
+                ></Feature>
             </div>
             <div className='px-4 border-dashed border-t pt-2 pb-3'>
                 <div className='flex items-center justify-between py-2'>
