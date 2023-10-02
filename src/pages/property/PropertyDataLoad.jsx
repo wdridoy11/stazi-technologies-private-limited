@@ -58,12 +58,12 @@ const PropertyDataLoad = () => {
           </div>
             {/* city name list show */}
             <div className='flex gap-3 mb-5'>
-                {cityName && cityName.map((name,index)=><button
+                {cityName && cityName.map((cName,index)=><button
                   key={index} 
-                  value={name}
+                  value={cName}
                   onClick={handleCityChange}
-                  className='bg-[#EBEBFB] px-10 py-2 rounded-full text-lg font-medium'
-                  >{name}</button>
+                  className={`px-10 py-2 rounded-full text-lg font-medium ${selectedCity === cName ? "bg-blue-600 text-white":"bg-[#EBEBFB]"}`}
+                  >{cName}</button>
                 )}
             </div>
             {/* Property Card data pass */}
