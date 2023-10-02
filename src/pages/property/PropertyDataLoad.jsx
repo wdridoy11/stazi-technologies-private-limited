@@ -11,18 +11,20 @@ const cityName=[
 ]
 
 const PropertyDataLoad = () => {
-
   const [properties, setProperties] = useState([]); //all properties data
   const [selectedCity, setSelectedCity] = useState('London'); // active data
   const [filteredProperties, setFilteredProperties] = useState([]); // filter data and send display
   const [displayedProperties, setDisplayedProperties] = useState(6); // Number of properties to display
   const [showMoreDisabled, setShowMoreDisabled] = useState(false);
 
-  // property data load form public folder
+  // property data load
   useEffect(()=>{
     fetch(`propertyData.json`)
     .then((res)=>res.json())
-    .then((data)=>setProperties(data))
+    .then((data)=> {
+      setProperties(data)
+      localStorage.setItem('data', JSON.stringify(data))
+    })
     .catch((err)=>console.log(err.message))
   },[])
 

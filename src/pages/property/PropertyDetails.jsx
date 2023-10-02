@@ -8,8 +8,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const PropertyDetails = ({property}) => {
   // property data structure
-  const { title, price, location, description, room, bed, bath, sft, imageGallery} = property;
-  
+  const { title, price, location, description, room, bed, bath, sft, imageGallery} = property || {};
+
   return (
     <div>
       <div>
@@ -18,7 +18,7 @@ const PropertyDetails = ({property}) => {
               <p className='flex items-center gap-1 text-base font-normal mb-5'><FaMapMarkerAlt></FaMapMarkerAlt> {location}</p>
               <div className='text-center'>
                   <Carousel>
-                      {imageGallery.map((gallery)=><div>
+                      {imageGallery?.map((gallery,index)=><div key={index}>
                           <img src={gallery} alt="property gallery image" />
                       </div>)}
                   </Carousel>

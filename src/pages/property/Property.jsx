@@ -1,23 +1,29 @@
 import React, { useEffect, useState } from 'react'
-import { useLoaderData, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import PropertyDetails from './PropertyDetails';
 
 const Property = () => {
 
-  const loadProperty = useLoaderData();
   const {property_id} = useParams();
+  const [propertyData, setPropertyData] = useState();
 
-  const propertyData =[];
-  const foundId = loadProperty.find((data)=> data.id === property_id);
-  propertyData.push(foundId);
+  // get local Storage data
+  const loadSingleProperty = () => {
+    const data = JSON.parse(localStorage.getItem('data'))
+    if (data) {
+       const single = data.find((item)=> item.id === property_id);
+       setPropertyData(single)
+    }
+ }
+
+   useEffect(() => {
+    loadSingleProperty()
+  },[])
 
   return (
     <div className='py-20 bg-neutral-100'>
       <div className='container mx-auto xl:px-20 md:px-10 sm:px-2 px-4'>
-          {propertyData.map((property)=><PropertyDetails
-              key={property.id}
-              property={property}
-          ></PropertyDetails>)}
+          <PropertyDetails property={propertyData}/>
       </div>
     </div>
   )

@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 import Main from '../layout/Main'
@@ -17,13 +18,13 @@ const routes = createBrowserRouter([
         element:<Home></Home>
       },
       {
-        path:"property",
+        path:"/property",
         element:<PropertyDataLoad></PropertyDataLoad>,
       },
       {
         path:"property/:property_id",
         element:<Property></Property>,
-        loader:({params})=>fetch(`propertyData.json`)
+        loader:async({params})=> await fetch(`propertyData.json`)
       },
     ]
   }

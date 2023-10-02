@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* button design */
 .blue-btn{
     @apply bg-blue-600 text-white text-lg font-medium px-10 py-2 rounded-full border 
     border-blue-600 hover:bg-transparent hover:text-black duration-500
