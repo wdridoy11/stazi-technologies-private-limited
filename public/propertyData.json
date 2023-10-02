@@ -21,7 +21,7 @@
     },
     {
       "id": "6519ae09a0b63f9742d94e77",
-      "img":"https://img.freepik.com/free-photo/swimming-pool-beach-luxury-hotel-type-entertainment-complex-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18726.jpg?w=1380&t=st=1696164580~exp=1696165180~hmac=bffd62ff9c23ac09d502210cc0e3211f7604e354a7a332ec26477ba71476481b",
+      "img":"https://cdn.pixabay.com/photo/2014/12/10/06/46/venetian-562759_1280.jpg",
       "title":"Regal North Hills -4150 Main at North Hills St, Releigh",
       "description":"Regal North Hills is a prominent cinema located at 4150 Main at North Hills Street in Raleigh, North Carolina. This upscale movie theater is part of the bustling North Hills district, known for its vibrant atmosphere and diverse entertainment options. Regal North Hills offers a premium cinematic experience for moviegoers in the area. The exterior of the theater is inviting and modern, with sleek architectural design and well-maintained surroundings. As you enter, you'll be greeted by a spacious and welcoming lobby, adorned with movie posters and comfortable seating areas. The atmosphere is designed to create anticipation and excitement for your movie-going experience. Inside the theater, you'll find a range of screening options, including standard screens and, potentially, IMAX or VIP screens, depending on the location's amenities. The seating arrangements are comfortable and offer excellent sightlines to the big screen, ensuring an immersive viewing experience.",
       "price":"5,256",
@@ -209,7 +209,177 @@
         "https://images.unsplash.com/photo-1618243539083-50d8840e122f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
         "https://cdn.pixabay.com/photo/2020/03/03/12/03/buildings-4898536_1280.jpg"
       ]
-    } 
+    },
+    {
+      "img": "https://images.pexels.com/photos/7031607/pexels-photo-7031607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "Modern 2BR Apartment",
+      "description": "A modern 2-bedroom apartment in the heart of New York City.",
+      "price": "$900,000",
+      "location": "123 Broadway, New York",
+      "cityName": "New York",
+      "room": "2",
+      "bed": "2",
+      "bath": "2",
+      "sft": "1,200 sqft",
+      "imageGallery": [
+        "https://images.pexels.com/photos/4857772/pexels-photo-4857772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/6587823/pexels-photo-6587823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ]
+    },
+    {
+      "img": "https://images.pexels.com/photos/7031406/pexels-photo-7031406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "Cozy 1BR Condo",
+      "description": "A cozy 1-bedroom condo with great city views and amenities.",
+      "price": "$650,000",
+      "location": "456 Main Street, New York",
+      "cityName": "New York",
+      "room": "1",
+      "bed": "1",
+      "bath": "1",
+      "sft": "800 sqft",
+      "imageGallery": [
+        "https://images.pexels.com/photos/7031407/pexels-photo-7031407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/7031407/pexels-photo-7031407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/7031412/pexels-photo-7031412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ]
+    },
+    {
+      "img": "https://images.pexels.com/photos/6343/village-hotel-building-countryside-6343.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "Luxury 3BR Penthouse",
+      "description": "A luxurious 3-bedroom penthouse with rooftop terrace and skyline views.",
+      "price": "$2,500,000",
+      "location": "789 Park Avenue, New York",
+      "cityName": "New York",
+      "room": "3",
+      "bed": "3",
+      "bath": "3",
+      "sft": "2,500",
+      "imageGallery": [
+        "https://images.pexels.com/photos/8082332/pexels-photo-8082332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://cdn.pixabay.com/photo/2017/08/27/10/16/interior-2685521_1280.jpg",
+        "https://cdn.pixabay.com/photo/2016/08/26/15/06/home-1622401_1280.jpg"
+      ]
+    },
+    {
+      "img": "https://images.pexels.com/photos/5524165/pexels-photo-5524165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "Charming Studio in SoHo",
+      "description": "A charming studio apartment in the trendy SoHo neighborhood.",
+      "price": "$450,000",
+      "location": "101 Mercer Street, New York",
+      "cityName": "New York",
+      "room": "1",
+      "bed": "0",
+      "bath": "1",
+      "sft": "6,000",
+      "imageGallery": [
+        "https://images.pexels.com/photos/7147291/pexels-photo-7147291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/7147370/pexels-photo-7147370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/6957083/pexels-photo-6957083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ]
+    },
+    {
+      "img": "https://images.pexels.com/photos/13041118/pexels-photo-13041118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "Spacious 4BR Brownstone",
+      "description": "A spacious 4-bedroom brownstone in a historic New York neighborhood.",
+      "price": "$1,800,000",
+      "location": "222 Lexington Avenue, New York",
+      "cityName": "New York",
+      "room": "4",
+      "bed": "4",
+      "bath": "3",
+      "sft": "2,800 sqft",
+      "imageGallery": [
+        "https://images.pexels.com/photos/7147366/pexels-photo-7147366.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/6933768/pexels-photo-6933768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/7534551/pexels-photo-7534551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ]
+    },
+    {
+      "img": "https://images.pexels.com/photos/3935320/pexels-photo-3935320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "Downtown 2BR Loft",
+      "description": "A downtown 2-bedroom loft-style apartment with an industrial chic vibe.",
+      "price": "$1,200,000",
+      "location": "333 Hudson Street, New York",
+      "cityName": "New York",
+      "room": "2",
+      "bed": "2",
+      "bath": "2",
+      "sft": "1,500 sqft",
+      "imageGallery": [
+        "https://cdn.pixabay.com/photo/2017/07/09/03/19/home-2486092_1280.jpg",
+        "https://cdn.pixabay.com/photo/2016/09/19/17/20/home-1680800_1280.jpg",
+        "https://cdn.pixabay.com/photo/2019/08/19/13/58/bed-4416515_1280.jpg"
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "title": "Modern 1BR Apartment",
+      "description": "A modern 1-bedroom apartment with city views and contemporary design.",
+      "price": "$750,000",
+      "location": "777 Park Place, New York",
+      "cityName": "New York",
+      "room": "1",
+      "bed": "1",
+      "bath": "1",
+      "sft": "900 sqft",
+      "imageGallery": [
+        "https://cdn.pixabay.com/photo/2013/09/24/12/08/apartment-185779_1280.jpg",
+        "https://cdn.pixabay.com/photo/2017/02/07/18/16/living-room-2046668_1280.jpg",
+        "https://cdn.pixabay.com/photo/2017/08/07/16/39/living-room-2605530_1280.jpg"
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1956&q=80",
+      "title": "Cozy Studio in Greenwich Village",
+      "description": "A cozy studio apartment in the charming Greenwich Village neighborhood.",
+      "price": "$550,000",
+      "location": "101 Waverly Place, New York",
+      "cityName": "New York",
+      "room": "1",
+      "bed": "0",
+      "bath": "1",
+      "sft": "600 sqft",
+      "imageGallery": [
+        "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/259962/pexels-photo-259962.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1591474200742-8e512e6f98f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+      "title": "Luxury 3BR Condo with River Views",
+      "description": "A luxurious 3-bedroom condo with panoramic river views and top-notch amenities.",
+      "price": "$3,200,000",
+      "location": "444 Riverside Drive, New York",
+      "cityName": "New York",
+      "room": "3",
+      "bed": "3",
+      "bath": "3",
+      "sft": "2,200 sqft",
+      "imageGallery": [
+        "https://cdn.pixabay.com/photo/2017/02/07/18/16/living-room-2046668_1280.jpg",
+        "https://cdn.pixabay.com/photo/2015/07/02/09/52/meeting-room-828547_1280.jpg",
+        "https://cdn.pixabay.com/photo/2021/10/06/15/05/bathroom-6686057_1280.jpg"
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2065&q=80",
+      "title": "Historic 2BR Brownstone",
+      "description": "A historic 2-bedroom brownstone with vintage charm and a beautiful garden.",
+      "price": "$1,400,000",
+      "location": "222 Clinton Street, New York",
+      "cityName": "New York",
+      "room": "2",
+      "bed": "2",
+      "bath": "2",
+      "sft": "1,800 sqft",
+      "imageGallery": [
+        "https://plus.unsplash.com/premium_photo-1661954372617-15780178eb2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2060&q=80",
+        "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://cdn.pixabay.com/photo/2020/12/16/00/10/home-5835289_1280.jpg"
+      ]
+    }
     
   ]
   
