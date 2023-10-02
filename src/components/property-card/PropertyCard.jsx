@@ -4,7 +4,7 @@ import {FiMove } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 const PropertyCard = ({property}) => {
-    const {img,title,price,location,room,bed,bath,sft}=property;
+    const {img,title,id,price,location,room,bed,bath,sft}=property;
   return (
     <div className='bg-white p-3 rounded-lg shadow-sm'>
         <div>
@@ -44,7 +44,7 @@ const PropertyCard = ({property}) => {
                     </div>
                     <div>
                         <Link className='py-3 px-5 border border-blue-600 text-blue-600 rounded-full font-medium
-                        hover:bg-blue-600 hover:text-white duration-500' to={'/property'}>Read More</Link>
+                        hover:bg-blue-600 hover:text-white duration-500' to={`/property/${id}`}>Read More</Link>
                     </div>
                 </div>
             </div>

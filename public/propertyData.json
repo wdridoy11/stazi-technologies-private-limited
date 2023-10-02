@@ -1,6 +1,6 @@
 [
     {
-      "id":"1",
+      "id": "6519ae09b0c2eb6a0ca28f4e",
       "img":"https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2144&q=80",
       "title":"RCE Theaters - 907 S Beckford Dr, Henderson, NC 27536",
       "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.",
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "id":"2",
+      "id": "6519ae09a0b63f9742d94e77",
       "img":"https://img.freepik.com/free-photo/swimming-pool-beach-luxury-hotel-type-entertainment-complex-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18726.jpg?w=1380&t=st=1696164580~exp=1696165180~hmac=bffd62ff9c23ac09d502210cc0e3211f7604e354a7a332ec26477ba71476481b",
       "title":"Regal North Hills -4150 Main at North Hills St, Releigh",
       "description":"Regal North Hills is a prominent cinema located at 4150 Main at North Hills Street in Raleigh, North Carolina. This upscale movie theater is part of the bustling North Hills district, known for its vibrant atmosphere and diverse entertainment options. Regal North Hills offers a premium cinematic experience for moviegoers in the area. The exterior of the theater is inviting and modern, with sleek architectural design and well-maintained surroundings. As you enter, you'll be greeted by a spacious and welcoming lobby, adorned with movie posters and comfortable seating areas. The atmosphere is designed to create anticipation and excitement for your movie-going experience. Inside the theater, you'll find a range of screening options, including standard screens and, potentially, IMAX or VIP screens, depending on the location's amenities. The seating arrangements are comfortable and offer excellent sightlines to the big screen, ensuring an immersive viewing experience.",
@@ -35,28 +35,179 @@
         "https://cdn.pixabay.com/photo/2017/06/09/09/30/swimming-pool-2386261_1280.jpg",
         "https://cdn.pixabay.com/photo/2016/05/18/08/12/resort-1400082_1280.jpg",
         "https://cdn.pixabay.com/photo/2016/05/16/06/17/pool-1395071_1280.jpg",
-        "https://cdn.pixabay.com/photo/2016/05/16/06/16/pool-1395069_1280.jpg",
-        ""
+        "https://cdn.pixabay.com/photo/2016/05/16/06/16/pool-1395069_1280.jpg"
       ]
     } ,
     {
-      "id":"2",
-      "img":"https://img.freepik.com/free-photo/swimming-pool-beach-luxury-hotel-type-entertainment-complex-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18726.jpg?w=1380&t=st=1696164580~exp=1696165180~hmac=bffd62ff9c23ac09d502210cc0e3211f7604e354a7a332ec26477ba71476481b",
-      "title":"Regal North Hills -4150 Main at North Hills St, Releigh",
-      "description":"Regal North Hills is a prominent cinema located at 4150 Main at North Hills Street in Raleigh, North Carolina. This upscale movie theater is part of the bustling North Hills district, known for its vibrant atmosphere and diverse entertainment options. Regal North Hills offers a premium cinematic experience for moviegoers in the area. The exterior of the theater is inviting and modern, with sleek architectural design and well-maintained surroundings. As you enter, you'll be greeted by a spacious and welcoming lobby, adorned with movie posters and comfortable seating areas. The atmosphere is designed to create anticipation and excitement for your movie-going experience. Inside the theater, you'll find a range of screening options, including standard screens and, potentially, IMAX or VIP screens, depending on the location's amenities. The seating arrangements are comfortable and offer excellent sightlines to the big screen, ensuring an immersive viewing experience.",
-      "price":"5,256",
-      "location":"3890 Poplar DR.",
+      "img": "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg",
+      "title": "Luxurious 4-Bedroom and 3-Bathroom Home in London",
+      "description": "This stunning 4-bedroom home in London offers luxury living at its finest. With spacious rooms, high-end finishes, and a beautiful garden, this property is a dream come true.",
+      "price": "1,2000",
+      "location": "123 Elm Street, London",
+      "cityName": "London",
+      "room": "4",
+      "bed": "4",
+      "bath": "3",
+      "sft": "2,500",
+      "imageGallery": [
+        "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg",
+        "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80",
+        "https://images.unsplash.com/photo-1568092775154-7fa176a29c0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "title": "Cozy 2BR Apartment in London",
+      "description": "A cozy 2-bedroom apartment with great amenities and city views.",
+      "price": "550,000",
+      "location": "456 Oak Street, London",
+      "cityName": "London",
+      "room": "2",
+      "bed": "2",
+      "bath": "1",
+      "sft": "1,200",
+      "imageGallery": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2075&q=80",
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "title": "Modern 3BR House near Park",
+      "description": "A modern 3-bedroom house with a spacious yard, close to the park.",
+      "price": "750,000",
+      "location": "789 Maple Lane, London",
+      "cityName": "London",
+      "room": "3",
+      "bed": "3",
+      "bath": "2",
+      "sft": "1,500",
+      "imageGallery": [
+        "https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "title": "Charming 1BR Studio in London",
+      "description": "A charming 1-bedroom studio apartment in a prime location.",
+      "price": "350,000",
+      "location": "101 Pine Street, London",
+      "cityName": "London",
+      "room": "1",
+      "bed": "1",
+      "bath": "1",
+      "sft": "700",
+      "imageGallery": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://images.unsplash.com/photo-1575517112370-130b9e327b22?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://plus.unsplash.com/premium_photo-1661962769148-fbe587e60fb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80",
+      "title": "Spacious 4BR Family Home",
+      "description": "A spacious 4-bedroom family home with a large backyard and modern features.",
+      "price": "950,000",
+      "location": "222 Elm Avenue, London",
+      "cityName": "London",
+      "room": "4",
+      "bed": "4",
+      "bath": "3",
+      "sft": "2,200",
+      "imageGallery": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2075&q=80",
+        "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
+        "https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1925&q=80",
+      "title": "Renovated 2BR Apartment",
+      "description": "A beautifully renovated 2-bedroom apartment with modern upgrades.",
+      "price": "600,000",
+      "location": "333 Oak Street, London",
+      "cityName": "London",
+      "room": "2",
+      "bed": "2",
+      "bath": "2",
+      "sft": "1,100",
+      "imageGallery": [
+        "https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
+      "title": "Downtown 1BR Condo",
+      "description": "A downtown 1-bedroom condo with a balcony and city skyline views.",
+      "price": "450,000",
+      "location": "555 Maple Avenue, London",
+      "cityName": "London",
+      "room": "1",
+      "bed": "1",
+      "bath": "1",
+      "sft": "800",
+      "imageGallery": [
+        "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1602075432748-82d264e2b463?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "title": "Historic 3BR Townhouse",
+      "description": "A historic 3-bedroom townhouse with original features and charm.",
+      "price": "850,000",
+      "location": "777 Pine Road, London",
+      "cityName": "London",
+      "room": "3",
+      "bed": "3",
+      "bath": "2",
+      "sft": "1,900",
+      "imageGallery": [
+        "https://images.unsplash.com/photo-1613553507747-5f8d62ad5904?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://images.unsplash.com/photo-1613553497126-a44624272024?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1594348352429-159508d48c57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80",
+      "title": "Modern 2BR Loft",
+      "description": "A modern 2-bedroom loft-style apartment with an open floor plan.",
+      "price": "700,000",
+      "location": "444 Elm Street, London",
+      "cityName": "London",
+      "room": "2",
+      "bed": "2",
+      "bath": "2",
+      "sft": "1,300",
+      "imageGallery": [
+        "https://images.unsplash.com/photo-1594348352384-97fa22a08109?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://images.unsplash.com/photo-1594348351748-5ce56416edc1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80"
+      ]
+    },
+    {
+      "img":"https://cdn.pixabay.com/photo/2020/05/04/13/30/outdoors-5129182_1280.jpg",
+      "title":"Lower Manhattan Skyline",
+      "description":"The Lower Manhattan skyline is a breathtaking sight to behold, characterized by a stunning juxtaposition of architectural styles and eras. At its heart stands the Financial District, a global financial hub that's home to the world-famous New York Stock Exchange (NYSE) and numerous banks and financial institutions. Here are some key features of the Lower Manhattan skyline. Perhaps the most iconic structure in Lower Manhattan, One World Trade Center, also known as the Freedom Tower, stands as a symbol of resilience and remembrance. It is the main building of the rebuilt World Trade Center complex and reaches a height of 1,776 feet (541 meters), making it the tallest building in the Western Hemisphere. Its sleek design and the One World Observatory at the top draw visitors from around the world.",
+      "price":"50,000",
+      "location":"10280, New York",
       "cityName":"New York",
-      "room":"3",
-      "bed":"4",
-      "bath":"1",
-      "sft":"754",
+      "room":"10",
+      "bed":"15",
+      "bath":"5",
+      "sft":"57,845",
       "imageGallery":[
-        "https://cdn.pixabay.com/photo/2017/06/09/09/30/swimming-pool-2386261_1280.jpg",
-        "https://cdn.pixabay.com/photo/2016/05/18/08/12/resort-1400082_1280.jpg",
-        "https://cdn.pixabay.com/photo/2016/05/16/06/17/pool-1395071_1280.jpg",
-        "https://cdn.pixabay.com/photo/2016/05/16/06/16/pool-1395069_1280.jpg",
-        ""
+        "https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_1280.jpg",
+        "https://images.pexels.com/photos/2360569/pexels-photo-2360569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.unsplash.com/photo-1618243539083-50d8840e122f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://cdn.pixabay.com/photo/2020/03/03/12/03/buildings-4898536_1280.jpg"
       ]
     } 
     

@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import PropertyCard from '../../components/property-card/PropertyCard'
-import { click } from '@testing-library/user-event/dist/click';
-import { useLoaderData } from 'react-router-dom';
 
+// city name list
 const cityName=[
   "London",
   "New York",
@@ -12,10 +11,9 @@ const cityName=[
 
 const PropertyDataLoad = () => {
 
-  // state
-  const [properties, setProperties] = useState([]);
-  const [selectedCity, setSelectedCity] = useState('London');
-  const [filteredProperties, setFilteredProperties] = useState([]);
+  const [properties, setProperties] = useState([]); //all properties data
+  const [selectedCity, setSelectedCity] = useState('London'); // active data
+  const [filteredProperties, setFilteredProperties] = useState([]); // filter data and send display
 
   // property data load form public folder
   useEffect(()=>{
@@ -41,6 +39,7 @@ const PropertyDataLoad = () => {
         <div className='container mx-auto'>
             <h1 className='text-4xl font-semibold text-center mb-10'>Featured Listed Property</h1>
             <p></p>
+            {/* city name list show */}
             <div className='flex gap-3 mb-5'>
                 {cityName && cityName.map((name,index)=><button
                   key={index} 
@@ -50,8 +49,14 @@ const PropertyDataLoad = () => {
                   >{name}</button>
                 )}
             </div>
+            {/* Property Card data pass */}
             <div className='grid grid-cols-3 gap-10'>
-                {filteredProperties && filteredProperties.map((property,index)=><PropertyCard key={index} property={property}></PropertyCard>)}
+                {filteredProperties && 
+                    filteredProperties.map((property,index)=><PropertyCard 
+                        key={index} 
+                        property={property}
+                    ></PropertyCard>
+                )}
             </div>
         </div>
     </div>

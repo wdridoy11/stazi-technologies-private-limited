@@ -18,6 +18,11 @@ const routes = createBrowserRouter([
       {
         path:"property",
         element:<PropertyDataLoad></PropertyDataLoad>,
+      },
+      {
+        path:"property/:id",
+        element:<PropertyDetails></PropertyDetails>,
+        loader:({params})=>fetch("propertyData.json")
       }
     ]
   }
