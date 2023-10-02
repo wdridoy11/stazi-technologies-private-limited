@@ -1,5 +1,4 @@
-## Live link:
-https://hotel-listing-website.netlify.app 
+## Live link: https://hotel-listing-website.netlify.app 
 
 ## Feature
 1. By default, shows London data card. On click of any other tab, it will be active, and show data.
