@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PropertyCard from '../../components/property-card/PropertyCard'
+import { BsArrowRight } from 'react-icons/bs';
 
 // city name list
 const cityName=[
@@ -46,7 +47,6 @@ const PropertyDataLoad = () => {
     if (newDisplayedProperties >= filteredProperties.length) {
       setShowMoreDisabled(true); // Disable the button when all data is displayed
     }
-
   }
 
   return (
@@ -56,16 +56,21 @@ const PropertyDataLoad = () => {
               <h1 className='text-4xl font-semibold text-center mb-4'>Featured Listed Property</h1>
               <p className='text-center w-1/3 mx-auto'>Real estate can be bought, sold, leased, or rented, and can be a valuable investment opportunity. The value of real estate can be...</p>
           </div>
-            {/* city name list show */}
-            <div className='flex gap-3 mb-5'>
-                {cityName && cityName.map((cName,index)=><button
-                  key={index} 
-                  value={cName}
-                  onClick={handleCityChange}
-                  className={`px-10 py-2 rounded-full text-lg font-medium ${selectedCity === cName ? "bg-blue-600 text-white":"bg-[#EBEBFB]"}`}
-                  >{cName}</button>
-                )}
-            </div>
+          <div className='flex items-center justify-between'>
+              {/* city name list show */}
+              <div className='flex gap-3 mb-5'>
+                  {cityName && cityName.map((cName,index)=><button
+                    key={index} 
+                    value={cName}
+                    onClick={handleCityChange}
+                    className={`px-10 py-2 rounded-full text-lg font-medium ${selectedCity === cName ? "bg-blue-600 text-white":"bg-[#EBEBFB]"}`}
+                    >{cName}</button>
+                  )}
+              </div>
+              <div>
+                  <button className='blue-border-btn flex items-center gap-2'>View All <BsArrowRight></BsArrowRight></button>
+              </div>
+          </div>
             {/* Property Card data pass */}
             <div className='grid grid-cols-3 gap-10'>
                 {filteredProperties && 
@@ -81,8 +86,7 @@ const PropertyDataLoad = () => {
                 {!showMoreDisabled && (
                     <button 
                     onClick={handleShowMore}
-                    className='bg-blue-600 text-white text-lg font-medium px-10 py-2 rounded-full border 
-                    border-blue-600 hover:bg-transparent hover:text-black duration-500'>Show More</button>
+                    className='blue-btn'>Show More</button>
                 )}
               </div>
             </div>

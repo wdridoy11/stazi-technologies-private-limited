@@ -35,8 +35,7 @@ const PropertyCard = ({property}) => {
                         <h4 className='text-blue-600 text-2xl font-semibold'>${price} <small className='text-base text-black font-normal'>/month</small></h4>
                     </div>
                     <div>
-                        <Link className='py-3 px-5 border border-blue-600 text-blue-600 rounded-full font-medium
-                        hover:bg-blue-600 hover:text-white duration-500' to={`/property/${id}`}>Read More</Link>
+                        <Link className='blue-border-btn' to={`/property/${id}`}>Read More</Link>
                     </div>
                 </div>
             </div>
